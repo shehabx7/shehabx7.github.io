@@ -4186,8 +4186,19 @@ input, select, textarea {
 		#footer .pagination span {
 			color: #e2e2e2;
 		}
+	#footer > section{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center; /* Center items horizontally */
+		align-items: center; /* Center items vertically */
+	}
 
-		#footer > section {
+	#footer > section {
+		flex: 1;
+		padding: 1rem;
+		text-align: center; /* Center text within each section */
+	}
+/* 		#footer > section {
 			-moz-flex-basis: 50%;
 			-webkit-flex-basis: 50%;
 			-ms-flex-basis: 50%;
@@ -4234,16 +4245,16 @@ input, select, textarea {
 						padding: 3rem 4rem 3rem 4rem ;
 					}
 					#footer > section.split.contact > section {
-						/* display: -moz-flex;
+						/display: -moz-flex;
 						display: -webkit-flex;
 						display: -ms-flex;
-						display: flex; */
+						display: flex; 
 						-moz-align-items: center;
 						-webkit-align-items: center;
 						-ms-align-items: center;
 						align-items: center;
 						padding: 3.15rem 4rem;
-					}
+					} */
 /* 
 				#footer > section.split.contact > section {
 					display: -moz-flex;
