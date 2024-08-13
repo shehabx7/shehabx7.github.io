@@ -4233,7 +4233,18 @@ input, select, textarea {
 					#footer > section.split > section:last-child {
 						padding: 3rem 4rem 3rem 4rem ;
 					}
-
+					#footer > section.split.contact > section {
+						/* display: -moz-flex;
+						display: -webkit-flex;
+						display: -ms-flex;
+						display: flex; */
+						-moz-align-items: center;
+						-webkit-align-items: center;
+						-ms-align-items: center;
+						align-items: center;
+						padding: 3.15rem 4rem;
+					}
+/* 
 				#footer > section.split.contact > section {
 					display: -moz-flex;
 					display: -webkit-flex;
@@ -4290,7 +4301,7 @@ input, select, textarea {
 
 						#footer > section.split.contact > section.alt > :last-child {
 							margin-top: -0.325rem;
-						}
+						} */
 
 		#footer form label,
 		#footer h3,
